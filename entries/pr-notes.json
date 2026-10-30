@@ -1,0 +1,35 @@
+{
+  "id": "pr-notes",
+  "displayName": "PR Notes",
+  "description": "Review pull requests, keep private notes, and chat with agents in BB. Find assigned PRs and review requests, inspect diffs and check results, and post comments or manage PRs using your GitHub access. PR details and saved notes become context in BB's native chat. Requires GitHub CLI signed in on the BB server; chat needs a configured agent provider and may incur its charges.",
+  "icon": {
+    "url": "./icons/pr-notes-54c53790.svg"
+  },
+  "tags": [
+    "github",
+    "pull-requests",
+    "code-review",
+    "private-notes",
+    "agent-chat",
+    "ci-checks"
+  ],
+  "author": {
+    "name": "Adebola",
+    "github": "AdzeB",
+    "url": "https://github.com/AdzeB"
+  },
+  "category": "code-and-reviews",
+  "screenshots": [
+    "./screenshots/pr-notes/overview.png",
+    "./screenshots/pr-notes/checks.png",
+    "./screenshots/pr-notes/code.png",
+    "./screenshots/pr-notes/chat.png"
+  ],
+  "overview": "./overview/pr-notes.md",
+  "source": {
+    "git": {
+      "url": "https://github.com/AdzeB/bb-plugin-pr-notes.git",
+      "range": "^0.1.0"
+    }
+  }
+}
