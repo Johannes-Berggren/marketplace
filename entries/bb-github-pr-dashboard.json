@@ -1,0 +1,37 @@
+{
+  "id": "bb-github-pr-dashboard",
+  "displayName": "GitHub PR Dashboard",
+  "description": "See why each pull request is stuck and review it without leaving bb: failing CI, unresolved comments, conflicts and stacks. Your pull requests, review requests for you and your teams, and assigned ones sit in one My PRs tab, grouped by repository. Open one to read its CI failures by pipeline and job, its changed files with syntax highlighting inline or side by side, and every review thread with who it waits on. Comment on a line or a range, reply, start and submit a review as Comment, Approve or Request changes, and close or reopen the pull request. Alerts tell you when CI starts failing or someone comments, as bb toasts, desktop notifications or a badge, each one optional. Uses the GitHub CLI login on the machine running bb, or a personal access token; github.com only.",
+  "icon": "GitPullRequest",
+  "tags": [
+    "github",
+    "pull-requests",
+    "ci",
+    "code-review",
+    "review-comments",
+    "diff",
+    "stacked-prs",
+    "notifications",
+    "gh-cli"
+  ],
+  "author": {
+    "name": "Muhammad Ahsan",
+    "github": "ahsan7162",
+    "url": "https://github.com/ahsan7162"
+  },
+  "category": "code-and-reviews",
+  "screenshots": [
+    "./screenshots/bb-github-pr-dashboard/list.jpg",
+    "./screenshots/bb-github-pr-dashboard/files.jpg",
+    "./screenshots/bb-github-pr-dashboard/review.jpg",
+    "./screenshots/bb-github-pr-dashboard/checks.jpg",
+    "./screenshots/bb-github-pr-dashboard/split.jpg"
+  ],
+  "overview": "./overview/bb-github-pr-dashboard.md",
+  "source": {
+    "git": {
+      "url": "https://github.com/ahsan7162/bb-github-pr-dashboard.git",
+      "range": "^0.2.0"
+    }
+  }
+}
